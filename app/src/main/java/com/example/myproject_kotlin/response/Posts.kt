@@ -11,6 +11,4 @@ class Posts {
     var count: Int = 0
     @SerializedName("item")
     var item: List<Item> = listOf()
-
-
 }
